@@ -1,0 +1,35 @@
+{
+  "name": "express-basic-auth",
+  "version": "0.1.0",
+  "description": "Simple middleware to add basic-auth in front of an Express site. Can be used to block access to test/staging sites, etc.",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "basic-auth",
+    "staging",
+    "authentication",
+    "password"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wlbrough/express-basic-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wlbrough/express-basic-auth/issues"
+  },
+  "author": {
+    "name": "Bill Broughton",
+    "email": "bill@billbroughton.me",
+    "url": "http://www.billbroughton.me/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "basic-auth": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
